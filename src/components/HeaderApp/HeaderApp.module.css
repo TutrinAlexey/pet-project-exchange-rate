@@ -1,0 +1,13 @@
+.header {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText {
+  color: var(--color-white, #fff);
+}
+.blue {
+  color: var(--color-blue-text, #07c8f8fa);
+}

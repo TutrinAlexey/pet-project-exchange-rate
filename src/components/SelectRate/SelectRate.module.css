@@ -1,0 +1,7 @@
+.container{
+    border: 1px solid var(--color-white, #fff);
+    padding: 15px;
+}
+.selectText{
+    color: var(--color-white, #fff);
+}
