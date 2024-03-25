@@ -1,4 +1,5 @@
 import { API_KEY, BASE_URL } from "./constants";
+import { useAppSelector } from "./types/hooksTypes";
 
 export const checkResponse = (res: Response) => {
   if (res.ok) {
@@ -8,10 +9,14 @@ export const checkResponse = (res: Response) => {
 };
 
 export const getRateList = () => {
-    return fetch(`${BASE_URL}/?get=currency_list&key=${API_KEY}`, {
-        method: 'GET',
-        headers: {
-            "Content-Type": "application/json;charset=utf-8",
-        }
-    }).then(checkResponse)
-}
+  // const base = useAppSelector();
+  return fetch(`${BASE_URL}RUB`, {
+    method: "GET",
+    redirect: 'follow',
+    headers: {
+      "Content-Type": "application/json;charset=utf-8",
+      "apikey": API_KEY,
+    },
+  }).then(checkResponse)
+  .then(res => res.rates);
+};
