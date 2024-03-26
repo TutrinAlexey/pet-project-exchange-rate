@@ -5,3 +5,5 @@ export const getRatesPending = (state: RootState) => state.rate.ratesPending;
 export const getRatesSuccess = (state: RootState) => state.rate.ratesSuccess;
 export const getRatesError = (state: RootState) => state.rate.ratesError;
 
+export const getSelectedValue = (state: RootState) => state.rate.selectedValue;
+

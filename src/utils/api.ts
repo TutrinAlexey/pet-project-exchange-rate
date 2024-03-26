@@ -1,5 +1,4 @@
 import { API_KEY, BASE_URL } from "./constants";
-import { useAppSelector } from "./types/hooksTypes";
 
 export const checkResponse = (res: Response) => {
   if (res.ok) {
@@ -8,9 +7,8 @@ export const checkResponse = (res: Response) => {
   return res.json().then((err: Error) => Promise.reject(err));
 };
 
-export const getRateList = () => {
-  // const base = useAppSelector();
-  return fetch(`${BASE_URL}RUB`, {
+export const getRateList = (base:string) => {
+  return fetch(`${BASE_URL}${base}`, {
     method: "GET",
     redirect: 'follow',
     headers: {

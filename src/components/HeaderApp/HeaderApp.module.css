@@ -1,14 +1,18 @@
 .header {
-    padding: 30px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-main-background, #232325);
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-main-background, #232325);
 }
 
 .headerText {
   color: var(--color-white, #fff);
 }
 .blue {
-  color: var(--color-purple-text, #910EFF);
+  color: var(--color-purple-text, #910eff);
+}
+.flags {
+  width: 30px;
+  height: 20px;
 }
