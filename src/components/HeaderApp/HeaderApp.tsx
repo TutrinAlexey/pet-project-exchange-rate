@@ -37,71 +37,86 @@ const HeaderApp: FC = () => {
       label: "EUR",
       value: "1",
       flag: <EU title="Europe" className={styles.flags} />,
+      valueIcon: '€',
     },
     {
       label: "USD",
       value: "2",
       flag: <US title="United States" className={styles.flags} />,
+      valueIcon: '$',
     },
     {
       label: "RUB",
       value: "3",
       flag: <RU title="Russia" className={styles.flags} />,
+      valueIcon: '₽',
     },
     {
       label: "AED",
       value: "4",
       flag: <AE title="Arabic United Emirates" className={styles.flags} />,
+      valueIcon: 'د. إ',
     },
     {
       label: "TRY",
       value: "5",
       flag: <TR title="Turkey" className={styles.flags} />,
+      valueIcon: '₺',
     },
     {
       label: "CNY",
       value: "6",
       flag: <CN title="China" className={styles.flags} />,
+      valueIcon: '¥',
+
     },
     {
       label: "KZT",
       value: "7",
       flag: <KZ title="Kazakhstan" className={styles.flags} />,
+      valueIcon: '₸',
     },
     {
       label: "ILS",
       value: "8",
       flag: <IL title="Israel" className={styles.flags} />,
+      valueIcon: '₪',
     },
     {
       label: "BYN",
       value: "9",
       flag: <BY title="Republic of Belarus" className={styles.flags} />,
+      valueIcon: 'Br',
     },
     {
       label: "BRL",
       value: "10",
       flag: <BR title="Brazil" className={styles.flags} />,
+      valueIcon: 'R$',
     },
     {
       label: "UAH",
       value: "11",
       flag: <UA title="Ukraine" className={styles.flags} />,
+      valueIcon: '₴',
     },
     {
       label: "JPY",
       value: "12",
       flag: <JP title="Japan" className={styles.flags} />,
+      valueIcon: '¥',
     },
     {
       label: "KRW",
       value: "13",
       flag: <KR title="Republic of Korea" className={styles.flags} />,
+      valueIcon: '₩',
     },
     {
       label: "CAD",
       value: "14",
       flag: <CA title="Canada" className={styles.flags} />,
+      valueIcon: '$',
     },
   ];
 

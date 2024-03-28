@@ -4,7 +4,8 @@ import { ReactElement } from "react";
 export type TOptions = {
     label: string;
     value: string | number;
-    flag: ReactElement
+    flag: ReactElement;
+    valueIcon: string;
   }
 
   export type TSelected = {

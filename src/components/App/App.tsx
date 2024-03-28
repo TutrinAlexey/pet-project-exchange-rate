@@ -7,9 +7,9 @@ import { FC, useEffect } from "react";
 const App: FC = () => {
   const dispatch = useAppDispatch();
 
-  useEffect(() => {
-    dispatch(getRates("RUB"));
-  }, []);
+  // useEffect(() => {
+  //   dispatch(getRates("RUB"));
+  // }, []);
 
   return (
     <div className={styles.app}>

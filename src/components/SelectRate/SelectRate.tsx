@@ -41,7 +41,7 @@ const SelectRate: FC<TProps> = ({
               onClick={() => {
                 onChange(option);
                 setOpenSelect(!openSelect);
-                dispatch(getRates(option.label))
+                // dispatch(getRates(option.label))
               }}
             >
               <span className={styles.optionFlag}>{option.flag}</span>

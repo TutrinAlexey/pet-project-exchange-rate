@@ -1,0 +1,82 @@
+.item {
+  box-sizing: border-box;
+  width: 610px;
+  padding: 15px 10px;
+  background-color: var(--color-white, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+.header {
+  gap: 10px;
+  display: flex;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.baseValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exchangeValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exchangeIcon {
+  width: 30px;
+  /* align-self: flex-end; */
+}
+.convert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buttonConvert {
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-purple-text, #910eff);
+  color: var(--color-white, #fff);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.buttonConvert:hover {
+  background-color: #7e0bdb;
+}
+.inputContainer {
+  position: relative;
+}
+.input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  background-color: #f5f5f5;
+  width: 240px;
+  padding: 3px 3px 3px 22px;
+}
+.input:focus {
+  outline: 0;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.valueIcon {
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.flags {
+  width: 30px;
+  height: 20px;
+}

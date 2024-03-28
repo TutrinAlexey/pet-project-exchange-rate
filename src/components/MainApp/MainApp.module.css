@@ -1,0 +1,7 @@
+.main {
+    padding: 30px 20px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
