@@ -1,4 +1,5 @@
 import { API_KEY, BASE_URL } from "./constants";
+import { TRates } from "./types/ratesTypes";
 
 export const checkResponse = (res: Response) => {
   if (res.ok) {
@@ -16,5 +17,5 @@ export const getRateList = (base:string) => {
       "apikey": API_KEY,
     },
   }).then(checkResponse)
-  .then(res => res.rates);
+  .then(res => res.rates as TRates);
 };

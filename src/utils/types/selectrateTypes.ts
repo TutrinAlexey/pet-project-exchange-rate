@@ -6,6 +6,7 @@ export type TOptions = {
     value: string | number;
     flag: ReactElement;
     valueIcon: string;
+    fullName: string;
   }
 
   export type TSelected = {

@@ -1,7 +1,19 @@
 .main {
     padding: 30px 20px;
-    background-color: red;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+.mainLoading {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.loading{
+    width: 600px;
 }

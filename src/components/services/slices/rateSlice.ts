@@ -1,16 +1,17 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { getRates } from "../thunk/rateQuery";
 import { TOptions } from "../../../utils/types/selectrateTypes";
+import { TRates } from "../../../utils/types/ratesTypes";
 
 type TInitialState = {
-  rates: [] | null;
+  rates: TRates | null;
   ratesPending: boolean;
   ratesSuccess: boolean | null;
   ratesError: string;
   selectedValue: TOptions | null;
 };
 const initialState: TInitialState = {
-  rates: [],
+  rates: null,
   ratesPending: false,
   ratesSuccess: null,
   ratesError: "",
@@ -33,7 +34,7 @@ const rateSlice = createSlice({
     });
     builder.addCase(
       getRates.fulfilled.type,
-      (state, action: PayloadAction<[]>) => {
+      (state, action: PayloadAction<{}>) => {
         state.ratesPending = false;
         state.ratesSuccess = true;
         state.rates = action.payload;
