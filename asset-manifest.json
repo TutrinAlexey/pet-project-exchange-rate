@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pet-project-exchange-rate/static/css/main.5666c56f.css",
+    "main.js": "/pet-project-exchange-rate/static/js/main.97f93b64.js",
+    "static/js/453.e6c235e3.chunk.js": "/pet-project-exchange-rate/static/js/453.e6c235e3.chunk.js",
+    "static/media/bg-exchange-rate.jpg": "/pet-project-exchange-rate/static/media/bg-exchange-rate.961b4fac7cd604289aa7.jpg",
+    "index.html": "/pet-project-exchange-rate/index.html",
+    "static/media/exchange-svgrepo-com.svg": "/pet-project-exchange-rate/static/media/exchange-svgrepo-com.f69d778f96c2e4fa80ce4fbb79b3e88a.svg",
+    "static/media/loading2.svg": "/pet-project-exchange-rate/static/media/loading2.758d7c5728a08929883a3425b0c7329d.svg",
+    "main.5666c56f.css.map": "/pet-project-exchange-rate/static/css/main.5666c56f.css.map",
+    "main.97f93b64.js.map": "/pet-project-exchange-rate/static/js/main.97f93b64.js.map",
+    "453.e6c235e3.chunk.js.map": "/pet-project-exchange-rate/static/js/453.e6c235e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5666c56f.css",
+    "static/js/main.97f93b64.js"
+  ]
+}
