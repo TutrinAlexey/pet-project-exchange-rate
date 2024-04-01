@@ -34,7 +34,7 @@
 
 ## Ссылка на проект задеплоенный на gh-pages
 
-[Проект](https://tutrinalexey.github.io/react-stellar-burger)
+[Проект](https://tutrinalexey.github.io/pet-project-exchange-rate/)
 
 ## Проблемы
 
